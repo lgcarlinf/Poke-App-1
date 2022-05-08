@@ -17,7 +17,10 @@ const Layout: FC<Props> = ({ children, title }) => {
         <meta name="author" content="luiggy" />
         <meta name="description" content="Informacion sobre el pokemon ..." />
         <meta name="keywords" content="pokemon,pokedex" />
-        <meta property="og:title" content={`Informacion sobre ${title}`} />
+        <meta
+          property="og:title"
+          content={title ? `Informacion sobre ${title}` : "Poke App"}
+        />
         <meta
           property="og:description"
           content={`Esta es la pagina sobre el pokemon ${title}`}
