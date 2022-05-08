@@ -23,7 +23,9 @@ const Layout: FC<Props> = ({ children, title }) => {
         />
         <meta
           property="og:description"
-          content={`Esta es la pagina sobre el pokemon ${title}`}
+          content={
+            title ? `Esta es la pagina sobre el pokemon ${title}` : "Poke App"
+          }
         />
         <meta property="og:image" content={`${origin}/img/banner.png`} />
       </Head>
