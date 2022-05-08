@@ -9,7 +9,7 @@
 ![](public/img/pokemon info.png)
 
 ## Favoritos
-![](public/img/favoritos.gif)
+![](public/img/favoritos.png)
 
 
 
